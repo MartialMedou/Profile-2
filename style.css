@@ -210,12 +210,20 @@ body{
     display: flex;
     margin-right: 0 5px;
     width: 650px;
-    height: 460px;
+    height: 330px;
     padding: 2em 0.5em;
     gap: 1em;
-    background-color: rgb(255, 255, 255);
+    background-color: rgb(238, 234, 238);
     grid-area: projects;
     color: white;
+}
+.projects h1{
+    margin-top: 0em;
+    padding-top: 0.5em;
+    padding-bottom: 0.5em;
+    color: #217e05;
+    line-height: 1.2em;
+    text-align: center;
 }
 .projects .one{
     width: 155px;
@@ -224,37 +232,38 @@ body{
     border-radius: 6px;
     overflow: hidden;
     padding: 0 0 0 0;
- }
- .projects .two{
+}
+.projects .two{
     width: 155px;
     height: 230px;
     box-shadow: 2px 3px 26px 0px rgba(0,0,0,0.44);
     border-radius: 6px;
     overflow: hidden;
     padding: 0 0 0 1em
- }
- .projects .three{
+}
+.projects .three{
     width: 155px;
     height: 230px;
     box-shadow: 2px 3px 26px 0px rgba(0,0,0,0.44);
     border-radius: 6px;
     overflow: hidden;
     padding: 0 0 0 1em
- }
- .projects .four{
+}
+.projects .four{
     width: 160px;
     height: 230px;
     box-shadow: 2px 3px 26px 0px rgba(0,0,0,0.44);
     border-radius: 6px;
     overflow: hidden;
     padding: 0 0 0 1em
- }
+}
 .footer{
     margin-bottom: 3em;
     background-color: #333;
     color: rgb(255, 255, 255);
     text-align: center;
-    padding-top: 2em;
+    padding-top: 1em;
+    padding-bottom: 1.5em;
     grid-area: footer;
 }
 
